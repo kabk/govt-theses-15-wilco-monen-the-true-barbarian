@@ -6,7 +6,7 @@ body {
 header {
     font-size: 22px;
 	font-weight: 700;
-	text-align: center;
+	margin-left: 100px;
 	font-family: 'Convergence', sans-serif;
 }
 
@@ -15,6 +15,13 @@ nav{
 	position: fixed;
 	margin-top:30px;
 	font-size: 18px;
+}
+
+footer{
+	font-family: 'Convergence', sans-serif;
+	position: fixed;
+	bottom: 0px;
+	left: -150px;
 }
 
 
@@ -29,18 +36,13 @@ li {
     margin-bottom: 8px;
 }
 
+
 h1, h2, h3, h4,h5, h6 {
-    margin: 10px 20px;
+    margin: 10px 180px;
 	font-family: 'Convergence', sans-serif;
 }
 h2{
 	margin-top: 0px;
-}
-footer{
-	font-family: 'Convergence', sans-serif;
-	float:left;
-	position: fixed;
-	bottom: 10px;
 }
 
 ul, ol {
@@ -70,6 +72,8 @@ p {
 	margin-right: 250px;
 	line-height: 1.8;
 	margin-bottom: 25px;
+	margin-left: 150px;
+	
 }
 
 /* This makes the images scale to the full width of the page */
