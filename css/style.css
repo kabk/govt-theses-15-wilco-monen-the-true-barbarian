@@ -24,7 +24,7 @@ article {
 }
 
 li {
-    list-style: disc;
+    list-style: none;
     margin-bottom: 8px;
 }
 
