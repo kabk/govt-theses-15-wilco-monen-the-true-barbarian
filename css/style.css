@@ -55,7 +55,7 @@ a{
 
 a:hover{
 	color: black;	
-	font-style: italic;
+	text-decoration: underline;
 } 
 a:visited{
 	color:black;
@@ -67,7 +67,7 @@ a:active {
 p {
 	font-size: 17px;
     margin-top: 0;
-	margin-right: 150px;
+	margin-right: 250px;
 	line-height: 1.8;
 	margin-bottom: 25px;
 }
