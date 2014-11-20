@@ -1,0 +1,152 @@
+body {
+    padding: 8px 16px 0px 8px;	
+	background-color:#E8E8E8;
+}
+
+header {
+    font-size: 22px;
+	font-weight: 700;
+	text-align: center;
+	font-family: 'Convergence', sans-serif;
+}
+
+nav{
+	width: 150px;
+	position: fixed;
+	margin-top:30px;
+	font-size: 18px;
+}
+
+
+article {
+	font-family: georgia, sans-serif;
+	font-size: 17px;
+}
+
+li {
+    list-style: disc;
+    margin-bottom: 8px;
+}
+
+h1, h2, h3, h4,h5, h6 {
+    margin: 10px 20px;
+	font-family: 'Convergence', sans-serif;
+}
+h2{
+	margin-top: 50px;
+}
+footer{
+	font-family: 'Convergence', sans-serif;
+	float:left;
+	position: fixed;
+	bottom: 10px;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	color: black;	
+	font-style: italic;
+} 
+a:visited{
+	color:black;
+}
+a:active {
+    color: gray;
+}
+
+p {
+	font-size: 17px;
+    margin-top: 0;
+	margin-right: 150px;
+	line-height: 1.8;
+	margin-bottom: 25px;
+}
+
+/* This makes the images scale to the full width of the page */
+img {
+    width: 100%;
+    height: auto;
+}
+
+img.noscale {
+    width: inherit;
+}
+#footnote_gedicht {
+	display: inline;
+	z-index: 1000;
+	font-size: 15px;
+	width: 350px;
+}
+
+
+
+@media screen and (max-width: 36em) {
+    /* These CSS instructions are only used, if the 
+     * â€˜media queryâ€™ above turns out to be true 
+     * 
+     * Media queryâ€™s can use properties like:
+     * width
+     * orientation
+     * resolution
+     * screen / print
+     */
+    /* Smaller Screens */
+    /* Our heading can be smaller */
+     header h1 {
+        font-size: 28px;
+        font-weight: 700;
+    }
+	h2{
+		font-size: 23px;
+		font-weight: 700;
+	}
+}
+
+@media only screen and (min-width: 36em) {
+    article { 
+    /* Larger Screens */
+        width: calc(100% - 200px);
+        float: right;
+        margin-right: 0;
+        font-size: 20px;
+        line-height: 24px;
+/* If ever we want to mirror the text:
+        -moz-transform: scale(-1, 1);
+        -webkit-transform: scale(-1, 1);
+        -o-transform: scale(-1, 1);
+        -ms-transform: scale(-1, 1);
+        transform: scale(-1, 1);
+*/    }
+
+    
+    footer {
+        clear: both;
+    }
+
+}
+
+@media only print {
+    /**
+     * When printing, the header is useful but it doesnâ€™t need
+     * to be so big
+     */
+    header h1, h2{
+        font-size: 18px;
+        font-weight: normal;
+    } 
+	article {
+		font-size: 12pt;
+	}
+    /* And the navigation we donâ€™t need */
+    nav {
+        display: none;
+    }
+}
