@@ -108,8 +108,9 @@ header {
 }
 
 nav{
-	width: 120px;
+	display: block;
 	position: absolute;
+	width: 120px;
 	margin-top:0px;
 	font-size: 15px;
 }
