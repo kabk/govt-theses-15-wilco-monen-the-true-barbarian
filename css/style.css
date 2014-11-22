@@ -114,9 +114,7 @@ img.noscale {
 		font-size: 23px;
 		font-weight: 700;
 	}
-	footer{
-		display: none;
-	}
+	
 }
 
 @media only screen and (min-width: 36em) {
@@ -136,9 +134,10 @@ img.noscale {
 */    }
 
     
-    footer {
-        clear: both;
-    }
+		footer{
+			display: none;
+		}
+	
 
 }
 
