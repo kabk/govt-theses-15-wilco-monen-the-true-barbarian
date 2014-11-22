@@ -103,7 +103,7 @@ body {
 header {
     font-size: 10px;
 	font-weight: 700;
-	margin-left: 0px;
+	margin-left: -100px;
 	font-family: 'Convergence', sans-serif;
 }
 
