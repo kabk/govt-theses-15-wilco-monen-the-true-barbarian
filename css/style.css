@@ -29,6 +29,7 @@ article {
 	margin-top: 50px;
 	font-family: georgia, sans-serif;
 	font-size: 17px;
+	margin-left: 300px;
 }
 
 li {
@@ -38,7 +39,7 @@ li {
 
 
 h1, h2, h3, h4,h5, h6 {
-    margin: 10px 180px;
+    margin: 10px -33px;
 	font-family: 'Convergence', sans-serif;
 }
 h2{
@@ -72,7 +73,6 @@ p {
 	margin-right: 250px;
 	line-height: 1.8;
 	margin-bottom: 25px;
-	margin-left: 150px;
 	
 }
 
@@ -90,6 +90,7 @@ img.noscale {
 	z-index: 1000;
 	font-size: 15px;
 	width: 350px;
+	margin-left: 0px;
 }
 
 
