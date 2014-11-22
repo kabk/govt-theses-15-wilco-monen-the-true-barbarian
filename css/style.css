@@ -95,46 +95,92 @@ img.noscale {
 
 
 @media screen and (max-width: 36em) {
-    /* These CSS instructions are only used, if the 
-     * â€˜media queryâ€™ above turns out to be true 
-     * 
-     * Media queryâ€™s can use properties like:
-     * width
-     * orientation
-     * resolution
-     * screen / print
-     */
-    /* Smaller Screens */
-    /* Our heading can be smaller */
-     header h1 {
-        font-size: 24px;
-        font-weight: bold;
-		margin-left: 0px;
-    }
-	h2{
-		font-size: 18px;
-		font-weight: 700;
-	}
-	footer{
-			display: none;
-		}
+body {
+    padding: 0px 0px 0px 0px;	
+	background-color: white;
+}
+
+header {
+    font-size: 10px;
+	font-weight: 700;
+	margin-left: 0px;
+	font-family: 'Convergence', sans-serif;
+}
+
+nav{
+	width: 120px;
+	position: fixed;
+	margin-top:0px;
+	font-size: 15px;
+}
+
+footer{
+	font-family: 'Convergence', sans-serif;
+	position: fixed;
+	top: 5px;
+	left: -150px;
+	font-size: 10px;
+	line-height: 0.5;
+}
+
+
+article {
+	margin-top: 25px;
+	font-family: georgia, sans-serif;
+	font-size: 17px;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+
+h1, h2, h3, h4,h5, h6 {
+    margin: 10px 180px;
+	font-family: 'Convergence', sans-serif;
+}
+h2{
+	margin-top: 0px;
+	font-size: 12px;
+	
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+
+a{
+	color:black;
+	text-decoration: none;
+}
+
+a:hover{
+	color: black;	
+	text-decoration: underline;
+} 
+a:visited{
+	color:black;
+}
+a:active {
+    color: gray;
+}
+
+p {
+	font-size: 17px;
+    margin-top: 0;
+	margin-right: 250px;
+	line-height: 1.8;
+	margin-bottom: 25px;
+	margin-left: 150px;
+	
+}
 	
 }
 
 @media only screen and (min-width: 36em) {
-    article { 
-    /* Larger Screens */
-        width: calc(100% - 200px);
-        float: right;
-        margin-right: 0;
-        font-size: 17px;
-        line-height: 24px;
-	}
-	footer{
-			display: none;
-		}
-	
-
+   
 }
 
 @media only print {
