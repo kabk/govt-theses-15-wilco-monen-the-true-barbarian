@@ -107,11 +107,12 @@ img.noscale {
     /* Smaller Screens */
     /* Our heading can be smaller */
      header h1 {
-        font-size: 28px;
-        font-weight: 700;
+        font-size: 24px;
+        font-weight: bold;
+		margin-left: 0px;
     }
 	h2{
-		font-size: 23px;
+		font-size: 18px;
 		font-weight: 700;
 	}
 	
@@ -123,18 +124,10 @@ img.noscale {
         width: calc(100% - 200px);
         float: right;
         margin-right: 0;
-        font-size: 20px;
+        font-size: 17px;
         line-height: 24px;
-/* If ever we want to mirror the text:
-        -moz-transform: scale(-1, 1);
-        -webkit-transform: scale(-1, 1);
-        -o-transform: scale(-1, 1);
-        -ms-transform: scale(-1, 1);
-        transform: scale(-1, 1);
-*/    }
-
-    
-		footer{
+	}
+	footer{
 			display: none;
 		}
 	
