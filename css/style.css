@@ -103,13 +103,13 @@ body {
 header {
     font-size: 10px;
 	font-weight: 700;
-	margin-left: -150px;
 	font-family: 'Convergence', sans-serif;
+	margin-left: -150px;
 }
 
 nav{
 	width: 120px;
-	position: fixed;
+	position: absolute;
 	margin-top:0px;
 	font-size: 15px;
 }
