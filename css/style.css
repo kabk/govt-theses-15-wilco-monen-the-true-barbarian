@@ -117,12 +117,7 @@ nav{
 }
 
 footer{
-	font-family: 'Convergence', sans-serif;
-	font-size: 10px;
-	position: absolute;
-	line-height: 0.5;
-	left:280px;	
-	top: 10px;
+	display: none;
 }
 
 
