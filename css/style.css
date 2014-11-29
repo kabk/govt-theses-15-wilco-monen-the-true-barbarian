@@ -21,7 +21,7 @@ footer{
 	font-family: 'Convergence', sans-serif;
 	position: fixed;
 	bottom: 0px;
-	left: -150px;
+	left: 60px;
 }
 
 
@@ -98,33 +98,40 @@ img.noscale {
 @media screen and (max-width: 36em) {
 body {
     padding: 0px 0px 0px 0px;	
-	background-color: white;
 }
 
 header {
     font-size: 10px;
-	font-weight: 700;
 	font-family: 'Convergence', sans-serif;
-	margin-left: -150px;
+	margin-left: 0px;
 }
 
 nav{
+	display: none;
 	display: block;
 	position: absolute;
 	width: 120px;
 	margin-top:0px;
 	font-size: 15px;
+	color: white;
 }
 
 footer{
-display: none;
+	font-family: 'Convergence', sans-serif;
+	font-size: 10px;
+	position: absolute;
+	line-height: 0.5;
+	left:280px;	
+	top: 10px;
 }
 
 
 article {
 	margin-top: 25px;
-	font-family: georgia, sans-serif;
-	font-size: 17px;
+	font-family: helvetica, sans-serif;
+	font-size: 15px;
+	margin-left: 0px;
+	
 }
 
 li {
@@ -134,8 +141,8 @@ li {
 
 
 h1, h2, h3, h4,h5, h6 {
-    margin: 10px 180px;
-	font-family: 'Convergence', sans-serif;
+    margin: 10px 20px;
+	font-family: 'Helvetica', sans-serif;
 }
 h2{
 	margin-top: 0px;
@@ -143,35 +150,46 @@ h2{
 	
 }
 
+h1{
+	font-size: 25px;
+	
+}
+
+
+
+
 ul, ol {
     padding-left: 20px;
 }
 
 
 a{
-	color:black;
+	display:none;
 	text-decoration: none;
 }
 
 a:hover{
-	color: black;	
 	text-decoration: underline;
 } 
 a:visited{
-	color:black;
 }
 a:active {
     color: gray;
 }
 
 p {
-	font-size: 17px;
+	font-size: 12px;
     margin-top: 0;
-	margin-right: 250px;
+	margin-right: 30px;
 	line-height: 1.8;
 	margin-bottom: 25px;
-	margin-left: 150px;
+	margin-left: 30px;
 	
+}
+
+}
+#footnote_gedicht {
+	display:none;
 }
 	
 }
