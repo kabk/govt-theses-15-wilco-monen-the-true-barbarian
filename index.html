@@ -52,8 +52,8 @@
 
 		//Enter the size of the popup window below, in pixels
 
-		var width  = 900;
-		var height = 600;
+		var width  = 320;
+		var height = 480;
 
 		//Enter the random links below. Add more or remove some as desired.
 
@@ -93,7 +93,7 @@
 
 	
 		function popupWindow() {
-		    window.open(randomlink[Math.floor(Math.random()*randomlink.length)],'newWindow','toolbar=no,menubar=no,resizable=no,scrollbars=no,status=no,location=no,width='+width+',height='+height);
+		    window.open(randomlink[Math.floor(Math.random()*randomlink.length)],'newWindow','left=1020,top=0,toolbar=no,menubar=no,resizable=no,scrollbars=no,status=no,location=no,width='+width+',height='+height);
 		    setTimeout("popupWindow()",20000);
 		}
 
