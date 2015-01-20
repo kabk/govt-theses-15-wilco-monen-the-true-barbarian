@@ -32,6 +32,7 @@ article {
 	margin-left: 300px;
 }
 
+
 li {
     list-style: none;
     margin-bottom: 8px;
@@ -85,6 +86,7 @@ img {
 img.noscale {
     width: inherit;
 }
+
 #footnote_gedicht {
 	display: inline;
 	z-index: 1000;
@@ -92,7 +94,6 @@ img.noscale {
 	width: 350px;
 	margin-left: 0px;
 }
-
 
 
 @media screen and (max-width: 36em) {
