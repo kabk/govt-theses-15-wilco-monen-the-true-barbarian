@@ -20,6 +20,27 @@
         <link rel="stylesheet" type="text/css" href="../css/style.css" /><!-- Here I put the rest of my styles-->
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,700,600,400' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Viga|Convergence|Asul:400,700' rel='stylesheet' type='text/css'>
+   <script src="../js/modernizr.custom.js"></script>
+   <script src="../js/jquery.min.js"></script><style type="text/css"></style>
+   <script>
+	    $(function() {
+	      $('a[href*=#]:not([href=#])').click(function() {
+	        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+	          var target = $(this.hash);
+	          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	          if (target.length) {
+	            $('html,body').animate({
+	              scrollTop: target.offset().top
+	            }, 1000);
+	            return false;
+	          }
+	        }
+	      });
+	    });
+		
+		</script
+   
     <body>
         <header> <!-- In HTML5 there are the elements header, nav, article and aside that are just like divs (blocks)… 
                       The only difference is that through their name, they indicate their function,
