@@ -35,13 +35,11 @@
 		
 	    var windowWidth = 960;
 	      var windowHeight = 3000;
-	      var xPos = (screen.width/1) - (windowWidth/1);
+	      var xPos = (screen.width/0) - (windowWidth/0);
 	      var yPos = (screen.height/2) - (windowHeight/2);
 	      window.open("pages/body.html","POPUP","width=" 
 	      + windowWidth+",height="+windowHeight +",left="+xPos+",top="+yPos);
 		
-	
-
 
 		//Enter the size of the popup window below, in pixels
 
@@ -86,7 +84,7 @@
 
 	
 		function popupWindow() {
-		    window.open(randomlink[Math.floor(Math.random()*randomlink.length)],'newWindow','right=0,top=0,toolbar=no,menubar=no,resizable=no,scrollbars=no,status=no,location=no,width='+width+',height='+height);
+		    window.open(randomlink[Math.floor(Math.random()*randomlink.length)],'newWindow','left=960,top=0,toolbar=no,menubar=no,resizable=no,scrollbars=no,status=no,location=no,width='+width+',height='+height);
 		    setTimeout("popupWindow()",20000);
 		}
 
