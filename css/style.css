@@ -7,7 +7,7 @@ header {
     font-size: 22px;
 	font-weight: 700;
 	margin-left: 100px;
-	font-family: impact, sans-serif;
+	font-family: helvetica, arial, sans-serif;
 }
 
 nav{
@@ -41,7 +41,7 @@ li {
 
 h1, h2, h3, h4,h5, h6 {
     margin: 10px -33px;
-	font-family: impact, sans-serif;
+	font-family: helvetica, arial, sans-serif;
 }
 h2{
 	margin-top: 0px;
