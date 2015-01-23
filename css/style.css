@@ -7,7 +7,8 @@ header {
     font-size: 22px;
 	font-weight: 700;
 	margin-left: 100px;
-	font-family: 'Roboto Condensed', sans-serif;;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-transform: uppercase;
 }
 
 nav{
