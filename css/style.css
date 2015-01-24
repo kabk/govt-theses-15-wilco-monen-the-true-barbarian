@@ -23,7 +23,7 @@ nav{
 footer{
 	font-family: 'Roboto', sans-serif;
 	position: fixed;
-	bottom: 0px;
+	bottom: 10px;
 	left: 60px;
 }
 
@@ -47,6 +47,8 @@ h1, h3 {
 }
 h4,h5, h6{
 	margin:3px -33px;
+	font-size: 13px;
+	font-weight: 300;
 }
 h2{
 	margin-top: 0px;
@@ -97,6 +99,10 @@ img {
 
 img.noscale {
     width: inherit;
+}
+#noten{
+	widht: 500px;
+	margin-right: 200px;
 }
 
 #footnote_gedicht {
